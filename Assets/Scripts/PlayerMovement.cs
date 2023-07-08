@@ -3,12 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCharacter : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float movementSpeed;
+    [SerializeField] float movementSpeed;
     Rigidbody2D rigidbody;
-    Vector2 moveDirection;
+    public Vector2 MoveDirection { get; set; }
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +31,11 @@ public class PlayerCharacter : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        moveDirection = new Vector2(moveX, moveY).normalized;
+        MoveDirection = new Vector2(moveX, moveY).normalized;
      }
 
     void Move()
     {
-        rigidbody.velocity = new Vector2(moveDirection.x * movementSpeed, moveDirection.y * movementSpeed);
+        rigidbody.velocity = new Vector2(MoveDirection.x * movementSpeed, MoveDirection.y * movementSpeed);
     }
 }
