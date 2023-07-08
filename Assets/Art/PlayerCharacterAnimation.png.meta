@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PlayerCharacterAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 38
+        width: 417
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580e6b6e43eb8e142b2c2e8f03d4e77f
+      internalID: 715359319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCharacterAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 40
+        width: 439
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f71ca06fcb83429dd9c9254a2e8ac
+      internalID: -207394460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCharacterAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 43
+        width: 459
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0135c6448cfc36b4a876085071ddb5a1
+      internalID: -561663203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCharacterAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 43
+        width: 444
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8c1463d5781c845a7337cdccf8a855
+      internalID: 1326996016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCharacterAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 45
+        width: 430
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741762b01e453964b8fe045b446c7e8f
+      internalID: -1448682719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlayerCharacterAnimation_0: 715359319
+      PlayerCharacterAnimation_1: -207394460
+      PlayerCharacterAnimation_2: -561663203
+      PlayerCharacterAnimation_3: 1326996016
+      PlayerCharacterAnimation_4: -1448682719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
